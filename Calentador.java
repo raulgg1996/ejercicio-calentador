@@ -1,5 +1,5 @@
 
-/*
+/**
  * @author Raul Gonzalez Gonzalez
  * @version 3.5.1
  */
@@ -16,7 +16,7 @@ public class Calentador
         minimo=min;
         maximo=max;
     }
-    /*
+    /**
      * metodo que permite calentar la temperatura del calentador.
      */
     public void calentar()
@@ -28,7 +28,7 @@ public class Calentador
         
         
     }
-    /*
+    /**
      * metodo que permite enfriar la temperatura del calentador.
      */
     public void enfriar()
@@ -39,14 +39,14 @@ public class Calentador
         }
         
     }
-    /*
+    /**
      * metodo que permite mostrar la temperatura registrada.
      */
     public int mostrar()
     {
         return temperatura;
     }
-    /*
+    /**
      * @param metodo que recibe como parametro el valor del incremento que se 
      * desea en el calentador.
      */
